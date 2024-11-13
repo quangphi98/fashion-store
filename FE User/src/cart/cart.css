@@ -1,0 +1,430 @@
+input[type=text] {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+input:focus{
+    outline: none;
+    text-indent: 10px;
+}
+input::placeholder{
+    font-weight: bold;
+    text-indent: 10px;
+}
+input{
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+hr{
+    width: auto;
+}
+main{
+    display: flex;
+    
+}
+.block_right p, h1{
+    color: #000;
+}
+.block_left{
+    margin: 40px 0px 0px 60px;
+}
+.sex, .select{
+    position: relative;
+}
+.select_sex, .select_color, .select_size{
+    background-color: rgba(209, 213, 219, 0.29);
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px rgb(240, 197, 197) solid;
+    border-right:none ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    max-width: 200px;
+    height: 42px;
+    display: flex;
+}
+.display_color, .display_sex, .display_size{
+    font: 1.2em sans-serif;
+    font-weight: bold;
+}
+.select_sex svg{
+    transition: transform 0.5s ease;
+}
+.spin_arrow{
+    transform: rotate(180deg)
+}
+.option_sex, .option_color, .option_size{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #d6d3d3;
+    width: 150px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    display: none;
+}
+.active_gr_sex{
+    display: block;
+}
+.infor{
+    width: 800px;
+    height: fit-content;
+    margin-right: 40px;
+}
+.infor_fullname{
+    display: flex;
+}
+.item_sex, .item_color, .item_size{
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font: 0.9em sans-serif;
+    font-weight: bold;
+}
+.item_sex:hover{
+    background-color: #efc8c8;
+}
+.content_fullname{
+    display: flex;
+}
+.name, .phone_number, .email, .adress, .city, .district, .ward, .note{
+    width: 400px;
+    height: 42px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px rgb(240, 197, 197) solid;
+}
+.phone{
+    margin-left: 20px;
+}
+.phone_number{
+    width: 250px;
+    border-radius: 20px;
+}
+.infor_fullname, .infor_email, .select_adress, .infor_adress{
+    margin-bottom: 30px;
+}
+.email, .adress, .note{
+    border-radius: 20px;
+    width: -webkit-fill-available;
+}
+.select_adress{
+    display: flex;
+}
+.display{
+    display: flex;
+    border: 1px rgb(240, 197, 197) solid;
+    border-radius: 20px;
+    padding: 7px 5px;
+}
+.city, .district, .ward{
+    border: none;
+    width: 230px;
+}
+#district{
+    margin: 0px 20px;
+}
+.gr_option{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    width: 240px;
+    max-height: 230px;
+    box-shadow: 5px 5px 5px 5px #d6d3d3;
+    border-radius: 15px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 0px;
+    display: none;
+}
+.show_gr_adress, .show_option_pro{
+    display: block;
+    overflow: auto;
+}
+.option_adress{
+    margin-bottom: 20px;
+}
+.option_adress p{
+    color: #000;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+}
+
+.option_adress:hover{
+    background-color: #d6d3d3;
+}
+
+.select_ward, .select_district, .select_city{
+    position: relative;
+}
+
+.arrow_city, .arrow_district, .arrow_ward{
+    position: absolute;
+    left: 220px;
+    margin-top: 10px;
+    transition: 0.5s transform ease;
+}
+.title{
+    margin-bottom: 20px;
+}
+.hr_block_left{
+    margin: 50px 0;
+}
+.payment{
+    margin-bottom: 30px;
+}
+.method_payment{
+    display: flex;
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px rgb(240, 197, 197) solid;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.item_method{
+    margin-right: 20px;
+}
+.item_method input{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.item_method img{
+    width: 35px;
+}
+#tiitle_momo{
+    margin-top: 10px;
+}
+#img_zalopay, #img_vnpay{
+    width: 60px;
+    height: auto;
+    margin-top: 10px;
+}
+.active_payment{
+    border: 1px rgb(244, 137, 229) solid;
+    opacity: 1;
+}
+.cart_content{
+    margin: 15px 0;
+
+}
+.share_item{
+    margin: 0px 10px;
+}
+.amount_item{
+    margin-left: 180px;
+    margin-right: 50px;
+}
+.title_cart span{
+    color: #d6d3d3;
+    font-size: large;
+}
+.title_cart hr{
+    border: 1px rgb(239, 201, 234) solid;
+}
+.delete_all{
+    cursor: pointer;
+}
+.delete_all:hover{
+    color: #000;
+}
+.icon_arrow{
+    margin-top: 10px;
+}
+.select_color, .select_size{
+    border-radius: 20px;
+    padding-left: 10px;
+    width: fit-content;
+}
+.item_option{
+    display: flex;
+    margin: 15px 0;
+}
+.color_size, .amount_price{
+    display: flex;
+}
+.color_size{
+    margin-right: 70px;
+}
+.select{
+    margin-right: 20px;
+}
+.select_size, .select_color{
+    width: auto;
+}
+.btn_cart{
+    border: 2px #000 solid;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 8px 10px;
+    display: flex;
+}
+.quality_increase, .quality_decrease{
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+}
+.quanlity_control{
+    border: none;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.display_price{
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: larger;
+}
+.item_display_img img{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+.item_pro{
+    display: flex;
+    height: fit-content;
+}
+.accept_item, .item_display_img{
+    margin-right: 20px;
+}
+.accept_item{
+    padding-top: 70px;
+}
+.price_item{
+    margin-right: 10px;
+}
+.pro_item{
+    margin-bottom: 20px;
+}
+.btn_add_cart{
+    background-color: #000;
+    color: white;
+    width: -webkit-fill-available;
+    margin: 0px 20px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn_add_cart:hover{
+    background-color: white;
+    color: #000;
+}
+.icon_color .arrow, .icon_size .arrow{
+    transition: 1s transform ease;
+}
+.option_color, .option_size{
+    width: fit-content;
+    padding-right: 15px;
+}
+.item_color:hover{
+    background-color: #000;
+    color: whitesmoke;
+    
+}
+.item_size:hover{
+    background-color: #000;
+    color: whitesmoke;
+}
+.pop_up{
+    position: absolute;
+    top: 0;
+    background-color: #3736365f;
+    z-index: 200;
+    padding: 100px;
+    width: -webkit-fill-available;
+    height: 1081px;
+    justify-content: center;
+    display: none;
+}
+.pop_up_content{
+    position: absolute;
+    background-color: whitesmoke;  
+    top: 20%;
+    left: 33%;
+    width: 35%;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+.pop_up_content p {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.confirm{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_confirm{
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#yes{
+    margin-left: 80px;
+}
+#no{
+    margin-right: 80px;
+}
+.btn_confirm:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.cancle_confirm{
+    position: absolute;
+    left: 66%;
+    top: 18%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px white solid;
+    font-size: medium;
+    cursor: pointer;
+}
+.cart_null{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    z-index: 200;
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 20px;
+    display: none;
+    p{
+        color: #000;
+        font-size: medium;
+    }
+    svg{
+        color: red;
+        font-size: large;
+        margin-right:10px;
+    }
+}
+.block_right{
+    margin: 40px 0px;
+}

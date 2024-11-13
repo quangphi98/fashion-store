@@ -1,0 +1,83 @@
+input{
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+}
+.input_Product, h1{
+    text-align: center;
+}
+.btn{
+    border-radius: 10px;
+    border-style: none;
+    width: 10%;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    justify-items: center;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#block_categoryId_Product{
+    position: relative;
+}
+#category_select, #corlor_Product, #size_Product{
+    width: 51%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px #000 solid;
+}
+
+li{
+    list-style: none;
+    text-align: start;
+}
+.item{
+    margin: 10px 0;
+}
+#product{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.btn_update .btn, .btn_delete .btn{
+    width: 50px;
+    margin-left: 0;
+}
+.btn_no, .btn_yes{
+    width: 50px;
+    margin: 0;
+}
+.popup_confirm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;       /* Chiều rộng 100% màn hình */
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.181);
+    display: none;
+}
+#no, #yes{
+    width: 50px;
+    margin: 0;
+}
+.popup_content{
+    position: absolute;
+    background-color: white;
+    top: 20%;
+    left: 40%;
+    z-index: 3;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+}
+
+.content_text{
+    margin-top: 15%;
+}
+.content_button{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}

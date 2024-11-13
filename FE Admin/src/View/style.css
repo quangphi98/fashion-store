@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin: 0;
+}
+td:first-child {
+    border-left: solid 2px black;   
+}
+
+td:last-child{
+    border-right: solid 2px black;
+}
+
+tr:first-child {
+ border-top: solid 2px black;
+}
+
+
+td:nth-child(n) {
+    border-left: solid 2px black;
+    text-align: center;
+}
+tr:nth-child(n) {
+    border-bottom: solid 2px black;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/publish/share/header/header.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="block_left">
+            <div class="infor"> 
+                <h1 class="title">Thông tin khách hàng</h1>            
+                <div class="infor_fullname">
+                    <div class="full_name">
+                        <label for="full_name">Họ và tên:</label>
+                        <div class="content_fullname">
+                            <div class="sex" id="">
+                                <button class="select_sex">
+                                    <span class="display_sex" value="Anh/chị">
+                                        Anh/chị
+                                    </span>
+                                    <svg class="arrow" data-v-1977227c="" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path data-v-1977227c="" id="gender                                                             Path" fill-rule="evenodd" clip-rule="evenodd" d="M16 8.1L10 14.5L4 8.1L5.5 6.5L10 11.3L14.5 6.5L16 8.67995Z" fill="#525252"></path></svg>
+                                </button>
+                                <ul class="option_sex ">
+                                    <li class="item_sex active_sex" id="men" value="Nam">Nam</li>
+                                    <li class="item_sex" id="women" value="Nữ">Nữ</li>
+                                    <li class="item_sex" id="unknow" value="Anh/Chị">Anh/Chị</li>
+                                </ul>
+                            </div>
+                            <div class="input_name">
+                                <input class="name" type="text" placeholder="Hãy nhậy họ và tên">
+                            </div>
+                        </div>
+                    </div>               
+
+                    <div class="phone">
+                        <label for="Số điên thoại">Số điên thoại:</label>
+                        <div class="input_phone">
+                            <input class="phone_number" type="text" placeholder="Hãy nhập số điện thoại">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infor_email">
+                    <label for="Email">Email:</label>
+                    <div class="input_email">
+                        <input class="email" type="text" placeholder="Theo dõi đơn hàng của bạn qua Email hoặc ZNS" disabled>
+                    </div>
+                </div>
+
+                <div class="infor_adress">
+                    <label for="Địa chỉ">Địa Chỉ:</label>
+                    <div class="input_email">
+                        <input class="adress" type="text" placeholder="Địa chỉ (ví dụ: 120 Trung Sơn, phường Trung Sơn)">
+                    </div>
+                </div>
+
+                <div class="select_adress">
+                    <div class="select_city" id="city">
+                        <div class="display">
+                            <input class="city" type="text" value="Hồ Chí Minh">
+                            <div class="arrow_city">
+                                <svg class="arrow " id="arrow_city" data-v-1977227c="" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path data-v-1977227c="" id="genderIconPath" fill-rule="evenodd" clip-rule="evenodd" d="M16 8.1L10 14.5L4 8.1L5.5 6.5L10 11.3L14.5 6.5L16 8.67995Z" fill="#525252"></path></svg>
+                            </div>
+                        </div>
+                        <ul class="gr_option" id="option_city">
+                            
+                        </ul>
+                    </div>
+
+                    <div class="select_district" id="district">
+                        <div class="display">
+                            <input class="district" type="text" value="Chọn Quận/Huyện">
+                            <div class="arrow_district">
+                                <svg class="arrow" id="arrow_district" data-v-1977227c="" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path data-v-1977227c="" id="genderIconPath" fill-rule="evenodd" clip-rule="evenodd" d="M16 8.1L10 14.5L4 8.1L5.5 6.5L10 11.3L14.5 6.5L16 8.67995Z" fill="#525252"></path></svg>
+                            </div>
+                        </div>
+                        <ul class="gr_option" id="option_district">
+                            
+                        </ul>
+                    </div>
+
+                    <div class="select_ward" id="ward">
+                        <div class="display">
+                            <input class="ward" type="text" value="Chọn Phường/Xã">
+                            <div class="arrow_ward">
+                                <svg class="arrow" id="arrow_ward" data-v-1977227c="" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path data-v-1977227c="" id="genderIconPath" fill-rule="evenodd" clip-rule="evenodd" d="M16 8.1L10 14.5L4 8.1L5.5 6.5L10 11.3L14.5 6.5L16 8.67995Z" fill="#525252"></path></svg>
+                            </div>
+                        </div>
+                        <ul class="gr_option" id="option_ward"> 
+                        
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="hr_block_left">
+
+            <div class="payment">
+                <h1 class="title_payment">Các hình thức thanh toán</h1>
+
+                <div class="gr_payment">
+                    <div class="feature_payment">
+                        <label class="method_payment active_payment" value="Thanh toán khi nhận hàng">
+                            <span class="item_method">
+                                <input type="radio" name="method_payment" class="check_payment">
+                                
+                            </span>
+                            <span class="item_method">
+                                <img data-v-635dcef2="" src="https://www.coolmate.me/images/COD.svg" alt="COD <br>Thanh toán khi nhận hàng">
+                            </span>
+                            <span class="item_method">
+                                COD 
+                                <br>
+                                Thanh toán khi nhận hàng
+                            </span>
+                        </label>
+
+                        <label class="method_payment" value="Ví điện tử Momo">
+                            <span class="item_method">
+                                <input type="radio" name="method_payment" class="check_payment">
+                                
+                            </span>
+                            <span class="item_method">
+                                <img data-v-635dcef2="" src="https://www.coolmate.me/images/momo-icon.png" alt="COD <br>Ví điện tử Momo">
+                            </span>
+                            <span class="item_method" id="tiitle_momo">
+                                Thanh toán bằng Momo
+                            </span>
+                        </label>
+
+                        <label class="method_payment" value="Ví điện tử VNPay">
+                            <span class="item_method">
+                                <input type="radio" name="method_payment" class="check_payment">
+                                
+                            </span>
+                            <span class="item_method">
+                                <img data-v-635dcef2="" id="img_zalopay" src="https://www.coolmate.me/images/logo-zalopay.svg" alt="COD <br>Ví điện tử VNPay">
+                            </span>
+                            <span class="item_method">
+                                Ví điện tử ZaloPay
+                                <br>
+                                Thẻ ATM/ Thẻ tín dụng (Credit card)/ Thẻ ghi nợ (Debit card)
+                            </span>
+                        </label>
+
+                        <label class="method_payment" value="Ví điện tử VNPay">
+                            <span class="item_method">
+                                <input type="radio" name="method_payment" class="check_payment">                               
+                            </span>
+                            <span class="item_method">
+                                <img id="img_vnpay" data-v-635dcef2="" src="https://www.coolmate.me/images/vnpay.png" alt="COD <br>Ví điện tử VNPay">
+                            </span>
+                            <span class="item_method">
+                                Ví điện tử VNPAY
+                                <br>
+                                QR Code thanh toán qua ngân hàng
+                            </span>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="block_right">
+            <div class="cart">
+                <h1>Giỏ hàng</h1>
+                <div  class="cart_content">
+                    <label for="" class="title_cart">
+                        <span>
+                            <input type="checkbox" class="check_all">
+                            Tât Cả Sản Phẩm
+                            <span class="share_item">
+                                |
+                            </span>
+                            <span class="delete_all">
+                                Xóa Tất Cả
+                             </span>
+                        </span>
+                        <span  class="amount_item">
+                            Số Lượng
+                        </span>
+                        <span class="price_item">
+                            Giá
+                        </span>
+                        <hr>
+                    </label>
+                </div>
+                <div class="gr_pro">
+                    
+                </div>
+
+                <div class="add_cart">
+                    <button class="btn_add_cart">Tạo đơn hàng</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pop_up">
+            <div class="pop_up_content">
+                <p>Bạn có muốn xóa tất cả sản phẩm không</p>
+                <div class="confirm">
+                    <button class="btn_confirm" id="yes">Đồng ý</button>
+                    <button class="btn_confirm" id="no">Hủy bỏ</button>
+                </div>
+            </div>
+            <button class="cancle_confirm">X</button>
+        </div>
+
+            <div class="cart_null">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                    </svg>
+                </span>
+                <span>Hãy thêm sản phẩm vào giỏ hàng</span>
+            </div>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./cart.js"></script>
+<script src="/Service.js"></script>
+<script src="/publish/share/header/header.js"></script>
+</html>

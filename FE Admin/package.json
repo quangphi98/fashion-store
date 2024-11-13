@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "scripts": {
+    "start": "node --experimental-detect-module index.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.9.0"
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./product.css">
+</head>
+<body>
+    <H1> Chỉnh sửa thông tin sản phẩm</H1>
+    <div class="form_input">
+        <div class="input_Product" id="block_sku_Product"> 
+            <p class="title_name">Sku Product</p>
+            <input type="text" id="sku_Product">
+            <p class="warnning" id="sku"></p>
+        </div>
+        <div class="input_Product" id="block_name_Product"> 
+            <p class="title_name">Name Product</p>
+            <input type="text" id="name_Product">
+            <p class="warnning" id="name"></p>
+        </div>
+        <div class="input_Product" id="block_img_Product"> 
+            <p class="title_img">Url Image</p>
+            <input type="text" id="img_Product"> 
+        </div>
+        <div class="input_Product" id="block_price_Product"> 
+            <p class="title_price"> Price Product</p>
+            <input type="number" id="price_Product"> 
+            <p class="warnning" id="price"></p>
+        </div>
+        <div class="input_Product" id="block_corlor_Product"> 
+            <p class="title_corlor"> Color Product</p>
+            <select name="corlor" id="corlor_Product">
+
+            </select>
+        </div>
+        <div class="input_Product" id="block_size_Product"> 
+            <p class="title_size"> Size Product</p>
+            <select name="size" id="size_Product">
+
+            </select>
+        </div>
+        <div class="input_Product" id="block_stock_Product"> 
+            <p class="title_stock"> Stock Product</p>
+            <input type="number" id="stock_Product"> 
+            <p class="warnning" id="stock"></p>
+        </div>
+        <div class="input_Product" id="block_categoryId_Product"> 
+            <p class="title_categoryId"> Category Product</p>
+            <select name="category" id="category_select">
+
+            </select>
+        </div>
+        <div class="input_Product" id="block_desc_Product"> 
+            <p class="title_desc"> Description Product</p>
+            <input type="text" id="desc_Product"> 
+        </div>
+        <div class="input_Product" id="block_fabric_Product"> 
+            <p class="title_fabric"> Fabric Product</p>
+            <input type="text" id="fabric_Product"> 
+        </div>
+        <div class="input_Product" id="block_care_Product"> 
+            <p class="title_care"> Description Product</p>
+            <input type="text" id="care_Product"> 
+        </div>
+    </div>
+    <button class="btn" id="update">Update</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="../../Service/Service.js"></script>
+<script src="../../Controller/product/Update.js"></script>
+</html>

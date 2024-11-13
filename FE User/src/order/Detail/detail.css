@@ -1,0 +1,418 @@
+hr{
+    width: auto;
+}
+input:focus{
+    outline-style: none;
+    border-bottom-color: black;
+    text-indent: 10px;
+}
+input::placeholder{
+    font-weight: bold;
+    text-indent: 10px;
+}
+body{
+    background-color: #f15656;
+}
+.payment__item{
+    background-color: white;
+    margin: 20px 130px;
+    padding: 20px 30px;
+}
+.payment__title{
+    background-color: white;
+    padding: 30px 150px;
+}
+.payment__title--img{
+    background-color: red;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 25px 10px 10px 10px;
+}
+.payment__title--name, .payment__title--sign{
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.address__content--name{
+    margin-right: 150px;
+    font-weight: bold;
+}
+.address, .address__content--name{
+    font-size: large;
+}
+.address__title{ 
+    color: red;
+    font-size: 20px;
+}
+.address__content{
+    margin-top: 20px;
+}
+.address{
+    background-color: white;
+}
+.product__detail-header--margin{
+    display: flex;
+    justify-content: space-between;
+}
+.product__detail-title-name{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.product__detail-price-item{
+    color: red;
+    font-size: large;
+    margin-left: 80px;
+}
+.product__detail-price-item--margin{
+    margin-left: 80px ;
+}
+.product__detail-infor{
+    display: flex;
+    /* width: 1200px; */
+}
+.product__detail-infor-item{
+    color: #000;
+    margin-right: 20px;
+}
+.product__detail-info-title{
+    font-size: 20px;
+}
+.product__detail-infor-img img{
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #efc6c6;
+}
+.product__detail-infor-name,
+.product__detail-infor-attribute{
+    margin-top: 20px;
+}
+.product__detail-infor-name{
+    width: 300px;
+}
+.product__detail-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.product__detail-price-item-infor{
+    color: #000;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: end;
+}
+.product__detail-price-item-infor--diable-margin{
+    margin-left: 0;
+}
+.product__detail-price-item-infor--mid-margin{
+    width: 50px;
+    margin-left: 87px;
+}
+.product__detail-price--top-padding{
+    display: flex;
+}
+.coupon__title{
+    margin-left:300px ;
+}
+.coupon__title-icon{
+    width: fit-content;
+}
+.coupon__title-icon svg {
+    width: 30px;
+    height: 20px;
+}
+.coupon__title{
+    display: flex;
+}
+.coupon__title-name{
+    margin-top: 2px;
+}
+.coupon{
+    display: flex;
+    justify-content: space-between;
+}
+.coupon__voucher-item{
+    display: flex;
+    border: 1px red solid;
+    padding: 4px;
+    border-radius: 10px;
+}
+.coupon__voucher-btn-name{
+    color: blue;
+    margin-top: 4px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.coupon__voucher-btn{
+    display: flex;
+}
+.coupon__voucher{
+    display: flex;
+}
+.diliver__notice{
+    display: flex;
+    border-right: 1px red solid;
+    width: 50%;
+}
+.diliver__notice-title{
+    color: #000;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.diliver{
+    margin-top: 20px;
+    display: flex;
+}
+.diliver__notice-input{
+    border: none;
+    border-bottom: 1px rgb(238, 188, 188) solid;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.total__header {
+    display: flex;
+}
+.diliver__methol-item{
+    color: #000;
+    margin-right: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.diliver__methol-item--no-margin{
+    margin-right: 0px;
+}
+.diliver__methol-item--begin-right{
+    text-align: end;
+}
+.diliver__methol{
+    display: flex;
+    margin-left: 10px;
+}
+.diliver__methol-price{
+    width: 100px;
+}
+.diliver__methol-display{
+    width: 260px;
+}
+.diliver__methol-change{
+    color: rgb(1, 193, 193);
+    cursor: pointer;
+}
+.methol__title{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-right: 80px;
+}
+.methol__payment--add-text::before{
+    content: "Phương thức thanh toán :";
+    color: #000;
+    font-size: medium;
+}
+.change__methol{
+    color: rgb(1, 193, 193);
+    cursor: pointer;
+}
+.price{
+    text-align: end;
+    width: 50%;
+}
+.price__item{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    margin-top: 20px;
+}
+.price__base--add-text::before{
+    content: "Tổng tiền hàng";
+    position: absolute;
+    right: 258px;
+    top: 0;
+}
+.price__deliver--add-text::before{
+    content: "Tổng tiền phí vận chuyển";
+    position: absolute;
+    right: 190px;
+    top: 0;
+}
+.price__voucher--add-text::before{
+    content: "Tổng cộng Voucher giảm giá";
+    position: absolute;
+    right: 168px;
+    top: 0;
+}
+.price__total--add-text::before{
+    content: "Tổng thanh toán";
+    position: absolute;
+    right: 225px;
+    top: 0;
+    /* font-size: large;
+    font-weight: bold; */
+}
+.price__tax--add-text::before{
+    content: "Thuế 10%";
+    position: absolute;
+    right: 287px;
+    top: 0;
+}
+.price__total{
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+.btn{
+    margin-top: 20px;
+    text-align: end;
+}
+.btn__payment{
+    background-color: white;
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#f15656 ;
+    border: 1px solid #f15656;
+    color: whitesmoke;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn__payment--switch-state:hover{
+    background-color: white;
+    color: #000;
+}
+.total__header{
+    display: flex;
+    justify-content: space-between;
+}
+.methol{
+    width: 70%;
+    padding-top: 20px;
+}
+.methol__item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.methol__item-radio{
+    width: 20px;
+    height: 20px;
+}
+.methol__item-content{
+    margin-right: 20px;
+}
+.methol__item-img{
+    width: 35px;
+}
+.methol__item{
+    border: 1px solid black;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 80%;
+    opacity: 0.5;
+}
+.methol__item-img-vnpay{
+    height: 20px;
+    margin-top: 10px;
+}
+.methol__item-radio{
+    margin-top: 10px;
+}
+.methol__item-active{
+    opacity: 1;
+    border: 1px solid blue;
+}
+.voucher{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(248, 178, 178, 0.396);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: top 0.01s ease;
+    display: none;
+}
+.voucher__active{
+    display: flex;
+}
+.voucher__form{
+    background-color: white;
+    width: 40%;
+    height: 60%;
+    overflow-y: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+}
+.voucher__lablel{
+    display: flex;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+}
+.voucher__item-content{
+    display: flex;
+}
+.voucher__item-logo{
+    width: 50px;
+    background: red;
+    border-radius: 20px;
+    padding: 10px;
+}
+.voucher__item-radio{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+.voucher__item-content-condition--add-text::before{
+    content: "Áp dụng cho đơn hàng trên ";
+    font-weight: bolder;
+}
+.voucher__item-content-discount--add-text::before{
+    content: "Giảm ngay ";
+    font-weight: bolder;
+}
+.voucher__item{
+    margin-right: 15px;
+}
+.voucher__item-content-tag{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.voucher__lablel-active{
+    border: 2px solid blue;
+}
+.voucher__form-cancle{
+    position: absolute;   
+    left: 68%;
+    top: 17%;
+    border: 2px solid rgb(244, 195, 195);
+    padding: 12px 15px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.voucher__form-cancle--hover-color:hover{
+    background-color: #000;
+    color: white;
+}
+.voucher__form-btn{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 18%;
+    height: 8%;
+    background-color: red;
+    border-color: red;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.voucher__form-btn--hover-color:hover{
+    background-color: whitesmoke;
+    color: #000;
+}
