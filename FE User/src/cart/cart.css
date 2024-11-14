@@ -278,6 +278,8 @@ main{
     color: #000;
     font-size: medium;
     font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.3em;
 }
 .quanlity_control{
     border: none;
@@ -427,4 +429,75 @@ main{
 }
 .block_right{
     margin: 40px 0px;
+}
+
+@media screen and (max-width: 63.9375em) {
+    main{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (min-witdh: 46.25em),(max-width: 63.9375em) {
+    
+}
+@media screen and (max-width: 46.1875em) {
+    .title_cart span{
+        font-size: 15px;
+    }
+    .amount_item {
+        margin-left: 47px;
+        margin-right: 20px;
+    }
+    .item_option{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .btn_cart{
+        padding: 0 10px;
+        height: 27px;
+    }
+    .quanlity_control{
+        padding: 0;
+        width: 90px;
+        height: 27px;;
+    }
+    .amount_price{
+        margin-top: 20px;
+    }
+    .infor{
+        width: 100%;
+    }
+    .select_sex{
+        padding: 10px 0 5px 0;
+    }
+    .display_sex{
+        font-size: 1.1em;
+    }
+    .block_left{
+        margin: 0;
+    }
+    .infor_fullname{
+        display: flex;
+        flex-direction: column;
+    }
+    .phone{
+        margin: 0;
+    }
+    .content_fullname {
+        margin-bottom: 30px;
+    }
+    .name{
+        width: 326px;
+    }
+    .phone_number{
+        width: 397px;
+    }
+    .select_adress{
+        flex-wrap: wrap;
+    }
+    #district{
+        margin: 20px 0;
+    }
+    .item_method{
+        font-size: small;
+    }
 }

@@ -12,7 +12,7 @@ const displayCategories = () => {
                 {
                      // Create the first list item and append it to element1
                     const para1 = document.createElement("li");
-                    para1.classList.add("item");
+                    para1.classList.add("nav__item");
                     const text1 = document.createTextNode(name);
                     para1.appendChild(text1);
 
@@ -21,7 +21,7 @@ const displayCategories = () => {
 
                     // Create the second list item and append it to element2
                     const para2 = document.createElement("li");
-                    para2.classList.add("item");
+                    para2.classList.add("nav__item");
                     const text2 = document.createTextNode(name);
                     para2.appendChild(text2);
 
@@ -32,7 +32,7 @@ const displayCategories = () => {
             else if(name.search("Áo") >= 0 )
                 {
                     const para1 = document.createElement("li");
-                    para1.classList.add("item");
+                    para1.classList.add("nav__item");
         
                     const text1 = document.createTextNode(name);
                     para1.appendChild(text1);
@@ -41,7 +41,7 @@ const displayCategories = () => {
                     element1.appendChild(para1);
 
                     const para2 = document.createElement("li");
-                    para2.classList.add("item");
+                    para2.classList.add("nav__item");
         
                     const text2 = document.createTextNode(name);
                     para2.appendChild(text2);
@@ -53,7 +53,7 @@ const displayCategories = () => {
             else if(name.search("Phụ kiện") >= 0 )
                 {
                     const para1 = document.createElement("li");
-                    para1.classList.add("item");
+                    para1.classList.add("nav__item");
             
                     const text1 = document.createTextNode(name);
                     para1.appendChild(text1);
@@ -62,7 +62,7 @@ const displayCategories = () => {
                     element1.appendChild(para1);
 
                     const para2 = document.createElement("li");
-                    para2.classList.add("item");
+                    para2.classList.add("nav__item");
             
                     const text2 = document.createTextNode(name);
                     para2.appendChild(text2);
@@ -73,7 +73,7 @@ const displayCategories = () => {
             else
                 {
                     const para1 = document.createElement("li");
-                    para1.classList.add("item");
+                    para1.classList.add("nav__item");
             
                     const text1 = document.createTextNode(name);
                     para1.appendChild(text1);
@@ -82,7 +82,7 @@ const displayCategories = () => {
                     element1.appendChild(para1);
 
                     const para2 = document.createElement("li");
-                    para2.classList.add("item");
+                    para2.classList.add("nav__item");
             
                     const text2 = document.createTextNode(name);
                     para2.appendChild(text2);

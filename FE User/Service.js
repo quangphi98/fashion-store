@@ -1,5 +1,6 @@
+
 //use component header
-fetch('/publish/share/header/header.html')
+fetch('/FE User/publish/share/header/header.html')
             .then(response => response.text())
             .then(data => {
                 // Tạo một phần tử DOM ảo để chứa nội dung HTML gốc
@@ -21,7 +22,7 @@ fetch('/publish/share/header/header.html')
             .catch(error => console.error('Lỗi:', error));
             
 //use component footer
-fetch('../../publish/share/footer/footer.html')
+fetch('/FE User/publish/share/footer/footer.html')
             .then(response => response.text())
             .then(data => {
                 // Tạo một phần tử DOM ảo để chứa nội dung HTML gốc

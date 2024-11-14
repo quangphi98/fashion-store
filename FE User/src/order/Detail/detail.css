@@ -416,3 +416,13 @@ body{
     background-color: whitesmoke;
     color: #000;
 }
+
+@media screen and (max-width: 63.9375em) {
+    
+}
+@media screen and (min-witdh: 46.25em),(max-width: 63.9375em) {
+    
+}
+@media screen and (max-width: 46.1875em) {
+    
+}
