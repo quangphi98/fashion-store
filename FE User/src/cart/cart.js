@@ -588,9 +588,10 @@ const updateAddress = (id) =>{
     })
 }
 
-const createCart = (cart) => {
+const createCart = () => {
 
-    $(".btn_add_cart").one("click",function(){
+    $(".btn_add_cart").click(function(){
+
         const urlCart = `https://p-nestjs-ecommerce.onrender.com/api/v1/carts`;
         let arrCart = [];
 
@@ -648,7 +649,7 @@ const createCart = (cart) => {
                     console.log(idCart);
 
                     await setTimeout(() => {
-                        window.location.href = "/src/order/Detail/detail.html";
+                        window.location.href = "/FE User/src/order/Detail/detail.html";
                     }, 1000)
                 },
                 error: function(err){

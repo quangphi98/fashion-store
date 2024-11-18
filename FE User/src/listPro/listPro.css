@@ -1,0 +1,33 @@
+.grid-menu{
+    grid-area: menu;
+}
+.grid-list__category{
+    grid-area: category;
+}
+.grid-list__product{
+    grid-area: product;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas : 
+        "menu category category category category category"
+        "menu product product product product product";
+    p{
+        color: #000;
+    }
+}
+
+/* mobile and tablet */
+@media screen and (max-width: 63.9375em){
+
+}
+
+/* tablet */
+@media screen and (min-witdh: 46.25em),(max-width: 63.9375em){
+
+}
+
+/* mobile */
+@media screen and (max-width: 46.1875em){
+
+}

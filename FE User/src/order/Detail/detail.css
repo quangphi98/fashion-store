@@ -418,11 +418,89 @@ body{
 }
 
 @media screen and (max-width: 63.9375em) {
-    
+    .payment__item{
+        margin: 20px 0;       
+    }
+    .address__content--name{
+        margin-right: 100px;
+    }
 }
 @media screen and (min-witdh: 46.25em),(max-width: 63.9375em) {
-    
+    .product__detail-infor-item{
+        margin-right: 0;
+        font-size: small;
+    }
+    .product__detail-infor-name{
+        width: 175px;
+        margin-left: 20px;
+    }
+    .product__detail-price-item-infor--right-margin{
+        margin-left: 0;
+    }
+    .product__detail-price-item-infor--mid-margin{
+        margin-left: 100px;
+    }
+    .price__deliver--add-text::before{
+        right: 168px;
+    }
+    .price__base--add-text::before{
+        right: 236px;
+    }
+    .price__voucher--add-text::before{
+        right: 144px;
+    }
+    .price__tax--add-text::before{
+        right: 264px;
+    }
+    .price__total--add-text::before{
+        right: 201px;
+    }
+    .btn__payment{
+        width: 40%;
+        margin-right: 9px;
+    }
+    .payment__title{
+        padding: 30px 24px;
+    }
+    .voucher__form{
+        width: 60%;
+    }
+    .voucher__form-cancle{
+        left: 76%;
+        top: 18%;
+    }
+    .voucher__form-btn{
+        left: 37%;
+        width: 25%;
+        height: 5%;
+    }
 }
 @media screen and (max-width: 46.1875em) {
-    
+    .address__content--name{
+        margin-right: 0;
+    }
+    .address__content{
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+    }
+    .address__content--name{
+        font-size: medium;
+    }
+    .product__detail-title-name{
+        font-size: large;
+    }
+    .product__detail-price-item{
+        margin-left: 20px;
+        font-size: small;
+    }
+    .product__detail-infor-img img{
+        width: 50px;
+    }
+    product__detail-infor-item{
+        font-size: small;
+    }
+    .payment__item{
+        padding: 20px 5px;
+    }
 }

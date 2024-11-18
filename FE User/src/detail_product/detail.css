@@ -230,7 +230,8 @@ input::-webkit-inner-spin-button {
     font-size: 24px;
 }
 #detail{
-    width: 536px;
+    width: 33.5em;
+    margin-bottom:3.6875em
 }
 #promotion{
     background-color: rgba(127, 255, 212, 0.395);
@@ -310,4 +311,102 @@ input::-webkit-inner-spin-button {
 .btn_show:hover{
     background-color: #000;
     color: white;
+}
+
+@media screen and (max-width: 63.9375em) {
+    .infor{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .group_infor{
+        margin-left: 17px;
+    }
+}
+@media screen and (min-witdh: 46.25em),(max-width: 63.9375em) {
+    #img_display{
+        width: 14em;
+        height: 26.25em;
+    }
+}
+@media screen and (max-width: 46.1875em) {
+    .infor{
+        width: 100%;
+    }
+    .group_infor{
+        position: relative;
+    }
+    .gr_img{
+        position: absolute;
+        left: 6%;
+        top: 2%;
+        z-index: 1;
+    }
+    .infor{
+        display: flex;
+        flex-direction: column;
+    }
+    #img{
+        display: block;
+    }
+    #img_display{
+        width: 25em;
+        height: 33.25em;
+        /* margin: 3px 8px; */
+        margin-left: 8px;
+    }
+    .group_infor{
+        margin-left: 0;
+    }
+    .main_img{
+        margin-left: 0;
+    }
+    #name_product, #price_pro{
+        font-size: large;
+    }
+    #detail{
+        width: fit-content;
+        margin-left: 8px;
+    }
+    #promotion{
+        width: 26em;
+    }
+    #discount{
+        font-size: large;
+        width: 43px;
+        height: 27px;
+        margin-top: 1px;
+        margin-left: 10px;
+    }
+    .item_size{
+        width: 55px;
+        height: 33px;
+    }
+    .btn_cart{
+        padding: 8px 3px;
+        margin-right: 12px;
+    }
+    #add_cart{
+        width: 270px;
+    }
+    .add_cart{
+        margin-left: 28%;
+    }
+    .item_policy img{
+        width: 24px;
+    }
+    .text_content {
+        font-size: small;
+    }
+    .option_policy {
+        width: 90%;
+    }
+    .pro_features{
+        width: 90%;
+    }
+    .title_size, .option_color, .title_color, .infor_pro, .coupon_pro, .option_pro{
+        width: fit-content;
+    }
+    .select{
+        font-size: small;
+    }
 }
